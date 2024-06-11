@@ -624,3 +624,79 @@ form textarea {
         --p-font: 15px;
     }
 }
+
+@media (max-width: 1170px) {
+    .home {
+        height: 90vh;
+    }
+
+    .root {
+        --h1-font: 4.5rem;
+    }
+
+    .cta-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 70px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .about {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-btn {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cta-content {
+        padding: 40px 50px;
+    }
+}
+
+@media (max-width: 950px) {
+    :root {
+        --h1-font: 4rem;
+        --h2-font: 3rem;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .nav {
+        position: absolute;
+        min-height: 100vh;
+        width: 100%;
+        padding: 70px 60px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: #1a1330;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .nav a {
+        display: block;
+        padding: 0;
+        margin: 0px 0px 25px 0px;
+        font-size: 2.1rem;
+        font-weight: 500;
+    }
+
+    .nav .open {
+        left: 0;
+    }
+}
