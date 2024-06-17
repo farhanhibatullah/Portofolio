@@ -266,9 +266,7 @@ header.sticky {
 .skill_container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
-    justify-content: center;
-    align-items: center;
+    grid-gap: 40px;
     margin: 0 auto;
     max-width: 1200px;
 }
