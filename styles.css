@@ -562,6 +562,11 @@ form textarea {
         padding-bottom: 6rem;
     }
 
+    .about-img img {
+        width: 75%;
+        height: auto;
+    }
+
     .skills {
         height: auto;
         padding-bottom: 6rem;
